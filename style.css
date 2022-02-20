@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 33px;
+    font-size: 39px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    padding-top: 33px;
+    font-size: 91px;
+    margin: -48px 30px;
+
+}
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+    margin: auto;
+    margin-left: -360px;
+    font-size: 39px;
+    margin-top: 120px;
+}
+p.sec{
+    margin: auto;
+    margin-top: 183px;
+    margin-left: -320px;
+    font-size: 19px;
+}
+
+
+.background{
+    background: rgb( 0, 0, 7) url(/img/hoodie.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+     
+}
+
+.logo img{
+    border: 1px solid black;
+    border-radius: 1234px;
+    width: 400px;
+    height: 400px;
+     
+}
+
+ .logo{
+    margin: 88px 280px;
+    display: flex;
+ }
+  
+ .buttons{
+    color: azure;
+    width: 84px;
+    display: flex;
+    margin: -200px 700px;
+    font-size: 61px;
+ }
+
+ .buttons a {
+     color: rgb(255, 255, 255);
+     padding: 12px;
+     transition: color 0.3s;
+
+ }
+ .buttons a:hover{
+     color: rgb(47, 47, 97);
+     padding: 17px;
+ }
